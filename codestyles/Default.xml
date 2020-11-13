@@ -1,4 +1,8 @@
 <code_scheme name="Default" version="173">
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ALIGN_TEXT" value="true" />
+    <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p" />
+  </HTMLCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
@@ -27,8 +31,10 @@
     <option name="LINE_COMMENT_ADD_SPACE" value="true" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
   </codeStyleSettings>
-  <codeStyleSettings language="Oracle">
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
+  <codeStyleSettings language="JSP">
+    <indentOptions>
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
