@@ -10,7 +10,7 @@
         <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" scope="JAVA,kotlin,Groovy" predefined=":a.b.c" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
-        <parameter-pattern value="&quot;#(name)&quot;" in-scripts="true" />
+        <parameter-pattern value="#\{([^\{\}]*)\}" in-scripts="true" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
