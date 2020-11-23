@@ -21,6 +21,9 @@
       </value>
     </option>
   </JetCodeStyleSettings>
+  <OracleCodeStyleSettings version="2">
+    <option name="INSERT_EL_WRAP" value="1" />
+  </OracleCodeStyleSettings>
   <codeStyleSettings language="HTML">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
@@ -35,9 +38,6 @@
     <indentOptions>
       <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
     </indentOptions>
-  </codeStyleSettings>
-  <codeStyleSettings language="Oracle">
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
