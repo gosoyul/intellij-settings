@@ -4,7 +4,7 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
-          <option name="enableMaxLengthLimit" value="false" />
+          <option name="enableFoldings" value="true" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
@@ -54,8 +54,9 @@
                       <option name="grepExpression" value=".*INFO.*" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="enabled" value="false" />
+                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value=".*DEBUG.*" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                       <option name="style">
                         <GrepStyle>
                           <option name="foregroundColor">
@@ -80,23 +81,15 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
-                      <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value="Preparing:[\s\S]*" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
+                      <option name="grepExpression" value=".*(Preparing:|Parameters:).*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
                             <GrepColor>
                               <option name="color" value="-16742007" />
-                              <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="foregroundColor">
-                            <GrepColor>
-                              <option name="enabled" value="true" />
-                            </GrepColor>
-                          </option>
+                          <option name="bold" value="true" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
