@@ -17,6 +17,10 @@
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("select")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
     </injection>
     <injection language="Oracle" injector-id="xml">
+      <display-name>sql-resource</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("sql-resource"))]]></place>
+    </injection>
+    <injection language="Oracle" injector-id="xml">
       <display-name>update</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("update")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
     </injection>
