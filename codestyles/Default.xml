@@ -3,6 +3,10 @@
     <option name="HTML_ALIGN_TEXT" value="true" />
     <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3,p" />
   </HTMLCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="20" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="20" />
+  </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
