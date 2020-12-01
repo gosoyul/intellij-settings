@@ -1,0 +1,10 @@
+<templateSet group="Java">
+  <template name="//" value="// $date$ $name$ $comment$ " description="Comment with date and my name initial" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="comment" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
