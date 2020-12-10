@@ -17,7 +17,7 @@
     <option name="aliasQualification" value="Always" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\bTODO\b((?!Auto-generated method stub|자동 생성된 메소드 스텁|\?옄\?룞 \?깮\?꽦\?맂 硫붿냼\?뱶 \?뒪\?뀅).)*$" />
+    <pattern pattern="\bTODO\b((?!Auto-generated method stub|자동 생성된 메소드 스텁|\?옄\?룞 \?깮\?꽦\?맂 硫붿냼\?뱶 \?뒪\?뀅).)*" />
     <pattern pattern="\bfixme\b.*" />
   </component>
   <component name="XmlEditorOptions">
